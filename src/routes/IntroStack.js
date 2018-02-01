@@ -9,11 +9,11 @@ import {
   addNavigationHelpers,
 } from 'react-navigation';
 
-import ScreenSplash from '../pages/login/ScreenSplash';
-import ScreenSignup from '../pages/login/ScreenSignup';
-import ScreenLogin from '../pages/login/ScreenLogin';
+import ScreenSplash from '../pages/login/ScreenSplash.js';
+import ScreenSignup from '../pages/login/ScreenSignup.js';
+import ScreenLogin from '../pages/login/ScreenLogin.js';
 
-const AppRouter = StackRouter(
+const AppRouter = StackNavigator(
     {
       // ScreenSplash: {
       //   screen: ScreenSplash,
@@ -25,11 +25,11 @@ const AppRouter = StackRouter(
 
       ScreenLogin: {
         screen: ScreenLogin,
-       
       },
  
 
     }
+     
 );
 
 export default AppRouter;
