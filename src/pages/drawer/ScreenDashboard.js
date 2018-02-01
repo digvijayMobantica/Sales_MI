@@ -11,18 +11,18 @@ import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 
 class ScreenDashboard extends Component {
 
-    // static navigationOptions = {
+    static navigationOptions = {
  
-    //     drawerIcon: ({ tintColor }) => {
-    //         return (
-    //             <MaterialIcons
-    //                 name="dashboard"
-    //                 size={24}
-    //                 style={{ color: tintColor }}
-    //             > </MaterialIcons>
-    //         );
-    //     }
-    // }
+        drawerIcon: ({ tintColor }) => {
+            return (
+                <MaterialIcons
+                    name="dashboard"
+                    size={24}
+                    style={{ color: tintColor }}
+                > </MaterialIcons>
+            );
+        }
+    }
     
     render() {
         return (

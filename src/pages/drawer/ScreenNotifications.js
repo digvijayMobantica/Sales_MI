@@ -7,20 +7,20 @@ import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 
 class ScreenNotifications extends Component {
 
-    // static navigationOptions = {
-    //     headerTitle: 'Notifications',
-    //     tabBarLabel: 'Notifications',
-    //     drawerIcon: ({ tintColor }) => {
-    //         return (
-    //             <MaterialIcons
-    //                 name="view-list"
-    //                 size={24}
-    //                 style={{ color: tintColor }}
-    //             > </MaterialIcons>
-    //         );
-    //     }
+    static navigationOptions = {
+        headerTitle: 'Notifications',
+        tabBarLabel: 'Notifications',
+        drawerIcon: ({ tintColor }) => {
+            return (
+                <MaterialIcons
+                    name="view-list"
+                    size={24}
+                    style={{ color: tintColor }}
+                > </MaterialIcons>
+            );
+        }
 
-    // }
+    }
 
     render() {
         return (
